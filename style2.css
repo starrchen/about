@@ -1,0 +1,117 @@
+header {
+	text-align: center;
+	font-family: helvetica;
+	background: url("http://s169923.gridserver.com/images/Telescope.jpg");
+	background-size: cover;
+	color: black;
+	padding: 20px 0px 0px 0px;
+	margin: 0 auto;
+	font-size: 20px;
+}
+img[src="http://bitballoon.scdn4.secure.raxcdn.com/bc999b47f83b516241c5a29e04d7805d0ad4e2de/starr-photo.jpg"] {
+	width: 250px;
+	border: 5px solid grey;
+	border-radius: 50%;
+	margin-top: 50px;
+}
+
+nav{
+	position:fixed;
+	top:0;
+	width: 100%;
+	color: #000000;
+	height: 30px;
+	text-align: center;
+	padding-top: 15px;
+	background-color: rgba(#ebebeb, 0.8);
+	font-size: 14px;
+}
+
+.nav{
+	text-decoration: none;
+}
+
+
+/* unvisited link */
+a:link {
+		color: #7EB5C9;
+		text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+		color: #7EB5C9;
+		text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+		 color: gray;
+}
+
+/* selected link */
+a:active {
+		color: white;
+}
+h1 {
+	text-align: center;
+	font-size: 65px;
+}
+h2 {
+	text-align: center;
+	color: #fce2b8;
+	font-size: 36px;
+}
+body {
+	text-align: left;
+	font-family: helvetica;
+	background: #0B0A10;
+	color: white;
+}
+p.small {
+	line-height: 110%;
+}
+p.big {
+	line-height: 130%;
+}
+
+
+article {
+	max-width: 500px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+ul {
+ 		padding: 10px;
+  		background: rgba(0,0,0,0.9);
+  		font-size: 16px;
+  	}
+
+/* li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+}*/
+
+footer{
+	font-size: 10px;
+	color: #989898;
+	text-align: center;
+	margin: 50px 0px 0px 0px;
+	line-height: 1px	;
+}
+
+@media (max-width: 300px) {
+	 h1 {
+		font-size: 36px;
+		padding: 5px;
+	}
+	li {
+		padding: 5px;
+		display: block;
+	}
+	article {
+		max-width: 200px;
+		font-size: 16px;
+	}
+}
