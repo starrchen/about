@@ -1,19 +1,29 @@
 <!DOCTYPE html>
+<html>
 
 <head>
-	<title>About Starr</title>
+	<title>Meet Starr</title>
 	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 </head>
 
 <body>
 	<header>
-	<div id="header">
-		<img src="http://bitballoon.scdn4.secure.raxcdn.com/bc999b47f83b516241c5a29e04d7805d0ad4e2de/starr-photo.jpg" width="300px">
+		<a href="#"><img src="http://bitballoon.scdn4.secure.raxcdn.com/bc999b47f83b516241c5a29e04d7805d0ad4e2de/starr-photo.jpg" width="300"></a>
 		<h1>Hi, I'm Starr!</h1>
-		<p>(Like the <a href="https://en.wikipedia.org/wiki/Ringo_Starr">Beatle</a> and the <a href="https://en.wikipedia.org/wiki/Power_Girl">superhero)</a></p>
+		<p>(Like the <a href="https://en.wikipedia.org/wiki/Ringo_Starr" target="_blank">Beatle</a> and the <a href="https://en.wikipedia.org/wiki/Power_Girl" target="_blank">superhero)</a></p>
 		<br>
 
+		<nav>
+			<a class = "nav" href="index.html"><span class="fa fa-home"></span></a> &nbsp;
+			<a class = "nav" href="#About">About</a> |
+			<a class = "nav" href="#Contact">Contact</a> |
+			<a class = "nav" href="portfolio.html">Portfolio</a> |
+			<a class = "nav" href="credit.html">Credit</a>
+		</nav>
+
+	<!--	Old navigation bar
 		<ul>
 			<li><a href="#About">About</a></li>
 			<li>|</li>
@@ -21,43 +31,35 @@
 			<li>|</li>
 			<li><a href="#Contact">Contact</a></li>
 			<li>|</li>
-			<li><a href="#Credits">Credits</a></li>
-		</ul>
-	</div>
+			<li><a href="#credit">credit</a></li>
+		</ul> -->
+
 	</header>
 
-	<div id="article">
-	<article>
-		<h2 id="About"><strong>STARR</strong>&nbsp;/&nbsp;st&auml;r&nbsp;/&nbsp; <i>noun</i> </h2></a>
+	<article class = "about">
+		<a href="#About"><h2 id="About"><strong>STARR</strong>&nbsp;/&nbsp;st&auml;r&nbsp;/&nbsp; <em>noun</em></h2></a>
 		<p class="big">
 			(1) Current General Assembly Web Development student<br>
 			(1) Native Jersey girl living in the DMV<br>
 			(2) Film, travel, science, food, Disney, and positive change enthusiast<br>
-			(3) Sentimental &amp extroverted nerd who cannot say no to karaoke
+			(3) Sentimental &amp; extroverted nerd who cannot say no to karaoke
 		</p>
 	</article>
 
-	<article class = "portfolio">
-		<h2 id="Portfolio">Portfolio</h2>
-		<p>As a General Assembly Web Development Immersive student, I have been promised plenty of opportunities to create cool things!</p>
-		<p>However, I have barely finished week one. In the meantime, please enjoy a taste of my photography and fashion/costume work. </p>
-
 	<article class = "contact">
-		<h2 id="Contact">Contact Starr</h2>
+		<a href="#Contact"><h2 id="Contact">Contact Starr</h2></a>
 			<div align="center">
-				<a href="mailto:chenstarr@gmail.com" target="_blank"><img src="email.png"></a>
-				<a href="#"><img src="twitter.png"></a>
-				<a href="#"><img src="instagram.png"></a>
+				<a href="mailto:chenstarr@gmail.com" target="_blank"><img src="email.png"></a>&nbsp;
+				<a href="http://github.com/starrchen" target="_blank"><img src="github-2.png"></a>&nbsp;
+				<a href="http://instagram.com" target="_blank"><img src="instagram.png"></a>&nbsp;
+				<a href="http://twitter.com" target="_blank"><img src="twitter.png"></a>&nbsp;
 			</div>
-		</ul>
 	</article>
 
-	<article class = "credits">
-		<h2 id="Credits">Credits</h2></a>
-			<div align="center">
-				<p class=small>Header background image courtesy of <a href="http://deathtothestockphoto.com/">Death to the Stock Photo</a><br>
-				Social media icons courtesy of <a href="http://www.psdicons.net">PSD Icons</a></p>
-			</div>
-	</article>
-	</div>
+	<footer>
+		<span class="fa fa-star fa-spin"></span>
+		<p>&copy; Starr Chen 2015</p>
+	</footer>
+
 </body>
+</html>
