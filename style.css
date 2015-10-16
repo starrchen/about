@@ -1,0 +1,83 @@
+		header {
+			text-align: center;
+			font-family: helvetica;
+			background: url("Starr-bg.jpg");
+			background-size: cover;
+			color: white;
+			padding: 20px 0px 0px 0px;
+			margin: 0 auto;
+			font-size: 20px;
+		}
+		img[src="http://bitballoon.scdn4.secure.raxcdn.com/bc999b47f83b516241c5a29e04d7805d0ad4e2de/starr-photo.jpg"] {
+			border: 5px solid white;
+			border-radius: 50%;
+		}
+
+		/* unvisited link */
+		a:link {
+    		color: #7EB5C9;
+		}
+
+		/* visited link */
+		a:visited {
+    		color: #7EB5C9;
+		}
+
+		/* mouse over link */
+		a:hover {
+   		 color: gray;
+		}
+
+		/* selected link */
+		a:active {
+    		color: white;
+		}
+		h1 {
+			text-align: center;
+			font-size: 72px;
+		}
+		h2 {
+			text-align: center;
+			color: #fce2b8;
+			font-size: 36px;
+		}
+		body {
+			text-align: left;
+			font-family: helvetica;
+			background: #0B0A10;
+			color: white;
+		}
+		p.small {
+			line-height: 100%;
+		}
+		p.big {
+			line-height: 130%;
+		}
+		article {
+			max-width: 500px;
+			padding: 10px;
+			margin: 0 auto;
+		}
+		ul {
+     		padding: 10px;
+      		background: rgba(0,0,0,0.9);
+      		font-size: 16px;
+      	}
+		li {
+			display: inline;
+			padding: 0px 10px 0px 10px;
+		}
+
+		@media (max-width: 300px) {
+     		 h1 {
+        		font-size: 36px;
+        		padding: 5px;
+      		}
+      		li {
+        		padding: 5px;
+        		display: block;
+      		}
+      		article {
+      			max-width: 200px;
+      			font-size: 16px;
+      		}
